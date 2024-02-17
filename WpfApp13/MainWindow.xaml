@@ -6,16 +6,17 @@
         xmlns:local="clr-namespace:WpfApp13"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Canvas Background="LightPink">
+    <Canvas Background="LightPink" Margin="0,0,0,-92">
         <Image Source="/Image1.png" Stretch="Fill" Canvas.Left="218" Canvas.Top="42" Height="197" Width="364" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <TextBlock Text="Autorization" FontFamily="Magneto" Canvas.Left="311" Height="42" Width="240" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <TextBox Name="login" Canvas.Left="218" Canvas.Top="264" HorizontalAlignment="Center" VerticalAlignment="Top" Width="364" Background="Beige" Height="34"/>
+        <TextBox Name="Login" Canvas.Left="218" Canvas.Top="264" HorizontalAlignment="Center" VerticalAlignment="Top" Width="364" Background="Beige" Height="34"/>
         <TextBox Name="password" Canvas.Left="218" Canvas.Top="327" HorizontalAlignment="Center" VerticalAlignment="Top" Width="364" Background="Beige" Height="32"/>
         <TextBlock Text="send login" Canvas.Left="72" Canvas.Top="264" FontFamily="Magneto" FontSize="24
                    " Height="34" Width="141"/>
         <TextBlock Text="send password" Canvas.Left="10" Canvas.Top="327" FontFamily="Magneto" FontSize="24
             " Height="32" Width="203" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <Button Content="confirm" Canvas.Left="292" Canvas.Top="372" Height="52" Width="196" Background="Beige" FontFamily="Magneto" FontSize="22" Click="Button_Click" />
+        <Button Content="Registr" Background="Beige" FontFamily="Magneto" FontSize="22" Canvas.Left="697" Canvas.Top="402" Click="Button_Click_1"/>
 
 
     </Canvas>

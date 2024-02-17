@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="market.xaml.cs">
+    <Compile Update="registration.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -15,7 +15,7 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="market.xaml">
+    <Page Update="registration.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
